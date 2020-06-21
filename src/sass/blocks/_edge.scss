@@ -1,0 +1,53 @@
+.edge {
+    min-height: 475px;
+    background-color: #f6f6f6;
+    &__icon {
+        display: block;
+        margin: 0 auto;
+    }
+    &__subtext {
+        text-align: center;
+        margin-top: 38px;
+        color: #0d0d0d;
+        font-weight: 700;
+       
+    }
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin-top: 65px;
+    }
+    &__icons {
+        
+        img {
+            margin: 0 auto;
+            display: block;
+        }
+    }
+    &__text {
+        margin-top: 26px;
+        text-align: center;
+        width: 230px;
+        height: 81px;
+        a {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+    }
+    &__context {
+        margin-top: 29px;
+        vertical-align: top;
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__icons-animation {
+        animation: heartbeat 1.5s ease infinite ;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
+}
+
+   

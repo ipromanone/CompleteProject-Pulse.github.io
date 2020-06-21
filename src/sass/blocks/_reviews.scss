@@ -1,0 +1,28 @@
+
+
+.reviews {
+    min-height: 1050px;
+    &_block {
+        display: flex;
+        &_name {
+            margin-bottom: 10px;
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &_finaly {
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        &_subtitle {
+            margin-top: 19px;
+            color: #0d0d0d;
+            font-size: 16px;
+            font-weight: 300;
+        }
+        img {
+            margin: 0 62px 121px 0 ;
+        }
+    }
+}
