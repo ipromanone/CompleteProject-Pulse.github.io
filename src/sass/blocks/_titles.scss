@@ -1,0 +1,18 @@
+.title {
+    margin-top: 70px;
+    text-align: center;
+    color: #0d0d0d;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    &_left {
+        color: #fff;
+        font-size: 36px;
+        text-align: left;
+    }
+    &__indent {
+        margin: 0;
+        margin-top: 3px;
+        margin-bottom: 70px;
+    }
+}

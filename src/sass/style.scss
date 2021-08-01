@@ -1,0 +1,31 @@
+@import '../sass/base/variables';
+@import '../sass/base/mixins';
+@import '../sass/base/animations';
+@import '../sass/libs/animate';
+@import '../sass/libs/bootstrap-reboot.min';
+@import '../sass/libs/font';
+@import '../sass/libs/slick';
+* {
+    font-family: 'Mauseo Sans Cyrl', sans-serif;
+}
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import '../sass/blocks/promo';
+@import '../sass/blocks/header';
+@import '../sass/blocks/buttons';
+@import '../sass/blocks/edge';
+@import '../sass/blocks/media';
+@import '../sass/blocks/consultation';
+@import '../sass/blocks/titles';
+@import '../sass/blocks/forms';
+@import '../sass/blocks/carousel';
+@import '../sass/blocks/catalog';
+@import '../sass/blocks/reviews';
+@import '../sass/blocks/footer';
+@import '../sass/blocks/modal';
+@import '../sass/blocks/pageup';
+
+
